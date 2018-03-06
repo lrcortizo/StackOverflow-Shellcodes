@@ -7,4 +7,5 @@ gcc -fno-stack-protector -z execstack -D_FORTIFY_SOURCE=0 -U_FORTIFY_SOURCE -m32
 ./example_xploit.sh | ./stack_over
 ### Shellcodes:
 http://shell-storm.org/shellcode/
+https://www.exploit-db.com/shellcode/?order_by=title&order=asc&p=Linux_x86
 
