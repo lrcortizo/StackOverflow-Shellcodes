@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#http://shell-storm.org/shellcode/files/shellcode-214.php
+#http://shell-storm.org/shellcode/files/shellcode-812.php
 #57 bytes
 #chmod 666 /etc/shadow, chmod 666 /etc/passwd
 
