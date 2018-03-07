@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#https://www.exploit-db.com/exploits/43463/
+#https://www.exploit-db.com/exploits/43653/
 #36 bytes
 #shutdown the device
 
